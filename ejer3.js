@@ -41,7 +41,7 @@ let nombre = document.createElement('h1')
 let edad= document.createElement('h1')
 lista.append(nombre)
 lista.append(edad)
-nombre.innerText=`${studentsList.name}`
-edad.innerText=`${studentsList.age}`
+nombre.innerHTML=`${studentsList[i].name}`
+edad.innerHTML=`${studentsList[i].age}`
 
 }
